@@ -25,9 +25,9 @@ depending on your platform / flavour of Python - but *please* read their docs at
 
 Run the following command in your Node-RED user directory - typically `~/.node-red`
 
-        npm i --save node-red-node-quantum
+        npm i --save dceejay/node-red-node-quantum
 
-### Usage
+### Usage
 
 In order to use this node you need an API key. You can this from your Quantum Experience account - under My Account - Personal Access Token.
 
