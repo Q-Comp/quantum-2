@@ -1,0 +1,23 @@
+{
+    "name"          : "node-red-node-quantum",
+    "version"       : "0.0.1",
+    "description"   : "A Node-RED node to send QIS python tasks to the the IBM Quantum Experience.",
+    "dependencies"  : {
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/dceejay/Quantum"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "quantum", "qis" ],
+    "node-red"      : {
+        "nodes"     : {
+            "quantum": "quantum.js"
+        }
+    },
+    "author": {
+        "name": "Dave Conway-Jones",
+        "email": "ceejay@vnet.ibm.com",
+        "url": "http://nodered.org"
+    }
+}
